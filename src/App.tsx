@@ -6,6 +6,7 @@ import {
   DictionaryStore,
 } from "./store/DictionaryStore";
 import QueryResultVisualizer from "./components/QueryResultVisualizer";
+import Modes from './components//Modes';
 
 const store = new DictionaryStore();
 
@@ -18,6 +19,7 @@ const App: FC = (): ReactElement => {
       <MainContainer>
         <DictionaryStoreProvider store={store}>
           <QueryInput />
+            <Modes />
           <QueryResultVisualizer />
         </DictionaryStoreProvider>
       </MainContainer>

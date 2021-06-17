@@ -1,8 +1,8 @@
 const color = {
-  main: "#f55c47",
-  secondary: "#4aa96c",
-  highlight: "#9fe6a0",
-  font: "#564a4a",
+  main: "#1890FF",
+  secondary: "#1890FF",
+  highlight: "#FA8C16",
+  white: "#fff",
 };
 
 export default color;

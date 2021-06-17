@@ -2,8 +2,7 @@ import { makeAutoObservable } from "mobx";
 import { createContext, useContext, FC } from "react";
 
 // Dictionary includes 10000 most used US English words
-// https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-usa.txt
-import dictionary from "../resources/dictionary.json";
+import dictionary from "../api/api.json";
 
 export type QueryResult = {
   words: Array<string>;
